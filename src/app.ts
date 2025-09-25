@@ -12,7 +12,7 @@ class TodoApp {
     this.addBtn.addEventListener("click", () => this.addTask());
   }
 
-  // ➕ Ajouter une tâche
+  //  Ajouter une tâche
   private addTask(): void {
     const task = this.input.value.trim();
     if (task) {
@@ -22,18 +22,18 @@ class TodoApp {
     }
   }
 
-  // 🗑️ Supprimer une tâche
+  //  Supprimer une tâche
   private removeTask(index: number): void {
     this.tasks.splice(index, 1);
     this.render();
   }
 
-  // ✅ Toggle "complété"
+  //  Toggle "complété"
   private toggleTask(li: HTMLLIElement): void {
     li.classList.toggle("completed");
   }
 
-  // 🎨 Afficher la liste
+  //  Afficher la liste
   private render(): void {
     this.list.innerHTML = "";
 
@@ -45,7 +45,7 @@ class TodoApp {
       span.addEventListener("click", () => this.toggleTask(li));
 
       const button = document.createElement("button") as HTMLButtonElement;
-      button.textContent = "❌";
+      button.textContent = "×";
       button.addEventListener("click", () => this.removeTask(index));
 
       li.appendChild(span);
@@ -55,7 +55,7 @@ class TodoApp {
   }
 }
 
-// 🚀 Lancer l’app après chargement de la page
+//  Lancer l’app après chargement de la page
 document.addEventListener("DOMContentLoaded", () => {
   new TodoApp();
 });
