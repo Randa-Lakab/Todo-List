@@ -7,7 +7,7 @@ var TodoApp = /** @class */ (function () {
         this.addBtn = document.getElementById("addBtn");
         this.addBtn.addEventListener("click", function () { return _this.addTask(); });
     }
-    // ➕ Ajouter une tâche
+    //  Ajouter une tâche
     TodoApp.prototype.addTask = function () {
         var task = this.input.value.trim();
         if (task) {
@@ -16,16 +16,16 @@ var TodoApp = /** @class */ (function () {
             this.render();
         }
     };
-    // 🗑️ Supprimer une tâche
+    //  Supprimer une tâche
     TodoApp.prototype.removeTask = function (index) {
         this.tasks.splice(index, 1);
         this.render();
     };
-    // ✅ Toggle "complété"
+    //  Toggle "complété"
     TodoApp.prototype.toggleTask = function (li) {
         li.classList.toggle("completed");
     };
-    // 🎨 Afficher la liste
+    //  Afficher la liste
     TodoApp.prototype.render = function () {
         var _this = this;
         this.list.innerHTML = "";
@@ -35,7 +35,7 @@ var TodoApp = /** @class */ (function () {
             span.textContent = task;
             span.addEventListener("click", function () { return _this.toggleTask(li); });
             var button = document.createElement("button");
-            button.textContent = "❌";
+            button.textContent = "×";
             button.addEventListener("click", function () { return _this.removeTask(index); });
             li.appendChild(span);
             li.appendChild(button);
@@ -44,7 +44,7 @@ var TodoApp = /** @class */ (function () {
     };
     return TodoApp;
 }());
-// 🚀 Lancer l’app après chargement de la page
+//  Lancer l’app après chargement de la page
 document.addEventListener("DOMContentLoaded", function () {
     new TodoApp();
 });
