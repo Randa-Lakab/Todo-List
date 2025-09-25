@@ -13,8 +13,19 @@ A simple Todo List application built with TypeScript, HTML, and CSS.
 ---
 
 ##  Project Structure
-todo-ts/ │── src/ │   ├── app.ts      # TypeScript source code │   ├── app.js      # Compiled JavaScript │   └── ... │── index.html       # Main page │── styles.css       # Application styles │── tsconfig.json    # TypeScript configuration │── package.json     # Dependencies and scripts │── .gitignore │── README.md
-Copier le code
+todo-ts/ 
+│── src/   
+|   |── app.ts      # TypeScript source code
+│   ├── app.js      # Compiled JavaScript 
+|   ├── app.js.map
+|
+│── index.html       # Main page 
+│── styles.css       # Application styles 
+│── tsconfig.json    # TypeScript configuration 
+│── package.json  # Dependencies and scripts 
+│── package-lock.json 
+│── .gitignore 
+│── README.md
 
 ---
 
