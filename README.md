@@ -62,9 +62,4 @@ npx tsc
 Open the index.html file in your browser.
 
 
-## Built With
-• TypeScript
 
-• HTML5
-
-• CSS3
