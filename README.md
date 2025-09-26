@@ -17,11 +17,11 @@ todo-ts/
 
 │── src/   
 
-   |── app.ts      # TypeScript source code
+   **|── app.ts      # TypeScript source code**
 
-   ├── app.js      # Compiled JavaScript 
+   **├── app.js      # Compiled JavaScript** 
 
-   ├── app.js.map
+   **├── app.js.map**
 
 |
 
