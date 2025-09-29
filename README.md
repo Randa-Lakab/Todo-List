@@ -5,10 +5,10 @@ A simple Todo List application built with TypeScript, HTML, and CSS.
 ---
 
 ##  Features
--  Add a new task  
--  Mark tasks as completed  
--  Delete tasks  
--  Auto-save in the browser (localStorage)
+-  Add a new task . 
+-  Mark tasks as completed . 
+-  Delete tasks . 
+-  Auto-save in the browser (localStorage) .
 
 ---
 
