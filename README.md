@@ -1,10 +1,10 @@
-#  Todo App in TypeScript
+##  Todo App in TypeScript
 
 A simple Todo List application built with TypeScript, HTML, and CSS.  
 
 ---
 
-##  Features
+###  Features
 -  Add a new task. 
 -  Mark tasks as completed. 
 -  Delete tasks. 
@@ -12,7 +12,7 @@ A simple Todo List application built with TypeScript, HTML, and CSS.
 
 ---
 
-##  Project Structure
+###  Project Structure
 todo-ts/ 
 
 │── src/   
@@ -41,7 +41,7 @@ todo-ts/
 
 ---
 
-##  Installation & Usage
+###  Installation & Usage
 1. **Clone the repository**
    ```bash
    git clone https://github.com/Randa-Lakab/todo-ts.git
